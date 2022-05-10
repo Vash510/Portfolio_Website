@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;400;600&family=Oswald:wght@200;400;600&display=swap" rel="stylesheet">
     <title>Jason Coleman</title>
 </head>
 <body>
     <header>
-        <ul class="nav">
+        <ul class="nav flex">
             <li><a href="" class="logo lg"><img src="" alt=""></a></li>
-            <li><a href="#splash" class="name">json.coleman</a></li>
+            <li><a href="#splash" class="primary-font bold">json.coleman</a></li>
             <li class="hidden"><a href="#design" class="breadcrumb">Design</a></li>
             <li class="hidden">></li>
             <li class="hidden"><a href="#develop" class="breadcrumb">Develop</a></li>
@@ -20,21 +24,27 @@
             <li class="hidden"><a href="#deploy" class="breadcrumb">Deploy</a></li>
         </ul>
     </header>
-    <section id="splash" class="spash">
-        <h1 class="hero-title large">Web Developer</h1>
-        <p class="hero-text medium">Design    >    Develop   >   Deploy</p>
+    <section id="hero" class="hero flex">
+        <h1 class="hero-title large primary-font bold primary">Web Developer</h1>
+        <ul class="hero-text large flex">
+            <li>Design</li>
+            <li>></li>
+            <li>Develop</li>
+            <li>></li>
+            <li>Deploy</li>
+        </ul>
         <a href="#design" class="hero-btn"><i class="fa-solid fa-circle-chevron-down"></i></a>
     </section>
     <section id="design">
         <div class="project-card">
-            <h2 class="design-title_1 medium">Design Project 1</h2>
+            <h2 class="design-title_1 primary-font">Design Project 1</h2>
             <i class="fa-solid fa-chevron-left slider"></i>
             <img src="" alt="" class="design-image_1">
             <i class="fa-solid fa-chevron-right slider"></i>
             <p class="design-text_1 small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, recusandae excepturi. Ipsum error explicabo doloribus ab saepe recusandae, culpa repellat rem fugiat fugit odit ut cum autem sunt omnis! Neque?</p>
         </div>
         <div class="tools">
-            <h3 class="medium">Tools of the trade</h3>
+            <h3 class="oswald light">Tools of the trade</h3>
             <div class="line"></div>
             <i class="fa-brands fa-figma"></i>
             <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat libero aperiam ex consectetur, delectus facilis numquam debitis maiores expedita magnam.</p>
@@ -46,14 +56,14 @@
     </section>
     <section id="develop">
         <div class="project-card">
-            <h2 class="develop-title_1 medium">Develop Project 1</h2>
+            <h2 class="develop-title_1 oswald">Develop Project 1</h2>
             <i class="fa-solid fa-chevron-left slider"></i>
             <img src="" alt="" class="develop-image_1">
             <i class="fa-solid fa-chevron-right slider"></i>
             <p class="develop-text_1 small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, recusandae excepturi. Ipsum error explicabo doloribus ab saepe recusandae, culpa repellat rem fugiat fugit odit ut cum autem sunt omnis! Neque?</p>
         </div>
         <div class="tools">
-            <h3 class="medium">Tools of the trade</h3>
+            <h3 class="oswald light">Tools of the trade</h3>
             <div class="line"></div>
             <div class="icons">
                 <i class="fa-brands fa-html5 active"></i>
